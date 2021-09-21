@@ -11,11 +11,11 @@ btnCheck.addEventListener("click", function onClick() {
 
     if (luckyNumber.value === "" || birthday.value === "") {
         result.style.display = "block"
-        result.innerText = "You have not provided the required Information"
+        result.innerText = "You have not provided the required Information."
     } else {
         if (Number(luckyNumber.value) === 0 || Number(luckyNumber.value) > 10) {
             result.style.display = "block"
-            result.innerText = "Lucky Number must be greater than 0 and less then 10"
+            result.innerText = "Lucky Number must be greater than 0 and less then 10."
         } else {
             for (i = 0; i < 8; i++) {
 

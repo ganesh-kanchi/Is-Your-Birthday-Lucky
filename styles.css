@@ -9,8 +9,9 @@
 #container{
     display: flex;
     flex-direction: column;
-    width: 50vw;
+    width: 75vw;
     align-items: center;
+    text-align: center;
     margin: auto;
     background-color: var(--color-background);
     font-weight: 900;

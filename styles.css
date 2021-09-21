@@ -32,14 +32,14 @@
 }
 
 #lucky-number{
-    width: 20vw;
+    width: 30vw;
     max-width: 80%;
     box-shadow: 7px 5px 7px var(--box-shadow);
     border-radius: 5%;
 }
 
 #birth-date{
-    width: 20vw;
+    width: 30vw;
     box-shadow: 7px 5px 7px var(--box-shadow);
     border-radius: 5%;
     max-width: 80%;

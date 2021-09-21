@@ -15,7 +15,7 @@
     margin: auto;
     background-color: var(--color-background);
     font-weight: 900;
-    border-radius: 5%;
+    border-radius: 7.5%;
     box-shadow: 10px 7px 10px var(--box-shadow);
     margin-bottom: 1.5rem;
 }
@@ -36,6 +36,10 @@
     max-width: 80%;
     box-shadow: 7px 5px 7px var(--box-shadow);
     border-radius: 5%;
+}
+
+#birth-date-l{
+    margin-top: 0.75rem;
 }
 
 #birth-date{
@@ -80,4 +84,13 @@
 .link-f:hover{
     color: white;
     box-shadow: 5px 4px 5px black;
+}
+
+.sub-head{
+    margin: 0 0 0 0;
+    margin-bottom: 0.25rem;
+}
+
+#main-head{
+    margin-bottom: 0.5rem;
 }

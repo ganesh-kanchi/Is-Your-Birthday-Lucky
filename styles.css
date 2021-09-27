@@ -15,7 +15,7 @@
     margin: auto;
     background-color: var(--color-background);
     font-weight: 900;
-    border-radius: 7.5%;
+    border-radius: 40px;
     box-shadow: 10px 7px 10px var(--box-shadow);
     margin-bottom: 1.5rem;
 }
@@ -59,14 +59,6 @@
     margin-top: 0;
 }
 
-#foot{
-    max-width: 75vw;
-    margin: auto;
-    padding: 0.5rem 2rem 1.5rem 2rem;
-    bottom: 0;
-    text-align: center;
-}
-
 .link-f{
     text-decoration: none;
     color: rgb(0, 0, 0);
@@ -93,4 +85,44 @@
 
 #main-head{
     margin-bottom: 0.5rem;
+}
+
+footer {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+#footer-head{
+    margin-bottom: 0.5rem;
+}
+
+#footer-ul{
+    display: inline-block;
+    list-style-type: none;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 0px;
+    margin-bottom: 1rem;
+}
+
+
+.footer-li{
+    display: inline-block;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+footer{
+    font-weight: 500;
+}
+
+.change-color-svg{
+    fill: var(--color-background);
+    height: 6vh;
+}
+
+.change-color-svg:hover{
+    fill: var(--sec-color);
 }
